@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+	<APDMDataReaderSettings>
+		<!--List of Experimental sensors and desired associated column labels in resulting tables-->
+		<ExperimentalSensors>
+			<ExperimentalSensor name="Static">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>pelvis_imu</name_in_model>
+			</ExperimentalSensor>
+                        <ExperimentalSensor name="Upper_r">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>femur_r_imu</name_in_model>
+			</ExperimentalSensor>
+                        <ExperimentalSensor name="Middle_r">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>tibia_r_imu</name_in_model>
+			</ExperimentalSensor>
+                        <ExperimentalSensor name="Lower_r">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>calcn_r_imu</name_in_model>
+			</ExperimentalSensor>
+                        <ExperimentalSensor name="Upper_l">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>femur_l_imu</name_in_model>
+			</ExperimentalSensor>
+			            <ExperimentalSensor name="Middle_l">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>tibia_l_imu</name_in_model>
+			</ExperimentalSensor>
+                        <ExperimentalSensor name="Lower_l">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>calcn_l_imu</name_in_model>
+			</ExperimentalSensor>
+		</ExperimentalSensors>
+	</APDMDataReaderSettings>
+</OpenSimDocument>
