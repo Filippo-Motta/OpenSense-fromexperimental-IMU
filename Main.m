@@ -1,7 +1,6 @@
 %% Start of script
 
-addpath('Filtri'); 
-addpath('quaternion_library');      
+addpath('Functions')     
 close all;                          
 clear;                              
 clc;       
